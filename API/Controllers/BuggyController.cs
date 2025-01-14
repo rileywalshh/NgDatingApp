@@ -24,7 +24,7 @@ public class BuggyController(DataContext context) : BaseApiController
         return thing;
     }
 
-    [HttpGet("Server-error")]
+    [HttpGet("server-error")]
     public ActionResult<AppUser> GetServerError()
     {
         try
